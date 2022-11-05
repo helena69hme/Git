@@ -17,13 +17,13 @@ In any of the cases, the goal of the class is for the students to be able to use
 
 5. Do an exercise (to basically repeat what was showed before with the slides and all):
    1. create repo `class_example`, both locally and on github
-   2. in master, create file `fruits.txt`, add the names of 3 fruits, one per line, Commit your changes.
-   3. push `master` to github
-   4. from `master`, create branch `feature/fruits`, modify the name of the second fruit and add two new fruits at the end of the file (one per line) 
-   5. on github, on branch `master`, change the name of the second fruit in the file `fruits.txt`
-   6. update your local branch `feature/fruits` with the contents of `master`
+   2. in main, create file `fruits.txt`, add the names of 3 fruits, one per line, Commit your changes.
+   3. push `main` to github
+   4. from `main`, create branch `feature/fruits`, modify the name of the second fruit and add two new fruits at the end of the file (one per line) 
+   5. on github, on branch `main`, change the name of the second fruit in the file `fruits.txt`
+   6. update your local branch `feature/fruits` with the contents of `main`
    7. push `feature/fruits` to github
-   8. create pull request to merge `feature/fruits` into `master`
+   8. create pull request to merge `feature/fruits` into `main`
    
 
 6. Git diff and git stash:
