@@ -38,7 +38,6 @@ In any of the cases, the goal of the class is for the students to be able to use
    - git reset soft vs. hard
    - git revert
    - git cherry-pick
-   - git rebase -i HEAD~N
 
 8. Exercise to create commit use reset soft, and then create another commit use reset hard.
 

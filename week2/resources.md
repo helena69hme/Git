@@ -8,7 +8,6 @@ Here are some links that might be useful:
  - About git diff: https://www.atlassian.com/git/tutorials/saving-changes/git-diff
  - About git reset and revert: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
  - About git cherry-pick: https://www.atlassian.com/git/tutorials/cherry-pick
- - About git interactive rebasing: https://thoughtbot.com/blog/git-interactive-rebase-squash-amend-rewriting-history
  - For when things really go wrong, you can check this, but be very careful: https://ohshitgit.com/
 
 How to write a good commit message:
