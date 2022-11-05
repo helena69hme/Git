@@ -12,14 +12,14 @@ The workflow is the same that the students will use during the final project.
 
  1. create a repo named `git_exercise_1` on github;
  2. clone the repo you just created on github;
- 3. on your computer, on the `master` branch create the file `fruits.txt`, add the names of 3 fruits, one per line, and commit your changes;
- 4. push `master` to github;
- 5. on your computer, from `master` create the branch `feature/fruits` and move to it;
+ 3. on your computer, on the `main` branch create the file `fruits.txt`, add the names of 3 fruits, one per line, and commit your changes;
+ 4. push `main` to github;
+ 5. on your computer, from `main` create the branch `feature/fruits` and move to it;
  6. on your computer, modify the name of the second fruit, add two new fruits at the end of the file (one per line), and commit your changes;
- 7. on github, on branch `master`, change the name of the second fruit in the file `fruits.txt`
- 8. update your local branch `feature/fruits` with the contents of the branch `master` on github
+ 7. on github, on branch `main`, change the name of the second fruit in the file `fruits.txt`
+ 8. update your local branch `feature/fruits` with the contents of the branch `main` on github
  9. push `feature/fruits` to github
- 10. create pull request to merge `feature/fruits` into `master`
+ 10. create pull request to merge `feature/fruits` into `main`
 
 **Note**: the students will get a merge conflict on step 8.
 
@@ -30,10 +30,7 @@ The goal of this exercise is to learn how to get rid of a particular commit, tha
 
  1. clone the repo: https://github.com/martamatos/cherry_pick_exercise.git
  2. in the branch add_fruits, get rid of the commit "added beetroots file". Hint: you need to create a new branch and use cherry-pick.
- 3. in the branch add_veggies, get rid of the commit "added apples". 
- Hint: You can either use one of the following approaches:
- - create a new branch and use cherry-pick. (This one will lead to a conflict).
- - use interactive rebasing on the branch. (This one will lead to a conflict).
+ 3. in the branch add_veggies, get rid of the commit "added apples". Hint: you need to create a new branch and use cherry-pick. (This one will lead to a conflict).
 
 
 Note: use git log --all --oneline to see all commits in all branches (the --oneline part is only to see a shorter version of the log).
@@ -59,8 +56,8 @@ This exercise is about git stash (and reset or commit --amend)
  4. write "Hello world!" on `project.txt`, commit, and push the changes to the github;
  5. create a new local branch `feature/new_sentence` and write "learning code" on the second line, commit, and push the branch to github;
  6. on the local branch `feature/new_sentence`, edit the second line to "learning code javascript" and save the file, do **not** commit;
- 7. move to master, you should get an error, remember you don't want to commit because your feature is not complete yet, but you still need to move to master;
- 9. once you are on `master`, you want to work on a different feature so create a new local branch named `feature/new_number`;
+ 7. move to main, you should get an error, remember you don't want to commit because your feature is not complete yet, but you still need to move to main;
+ 9. once you are on `main`, you want to work on a different feature so create a new local branch named `feature/new_number`;
  10. on branch `feature/new_number`, add a new line with number 1 to `project.txt`, commit, and push to github;
  11. go to github and on the branch `feature/new_number` add one more line with number 2 to `project.txt`;
  12. on your computer, add a new line with number 3 to `project.txt` and save, do **not** commit;
